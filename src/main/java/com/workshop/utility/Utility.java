@@ -21,9 +21,9 @@ public class Utility {
     public static Properties loadProperties() {
 
         Properties properties = new Properties();
-        InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream("/workshop_rest.properties");
+        InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream("/workshop_test.properties");
         if (in == null) {
-            in = Thread.currentThread().getContextClassLoader().getResourceAsStream("workshop_rest.properties");
+            in = Thread.currentThread().getContextClassLoader().getResourceAsStream("workshop_test.properties");
         }
         try {
             properties.load(in);
