@@ -1,0 +1,19 @@
+{
+	"team": {
+		"name": "Strikers",
+		"coach": {
+			"firstName": "Billy Bob",
+			"lastName": "Joe"
+		},
+		"players": [{
+			"firstName": "Kyla",
+			"lastName": "Kieltyka"
+		}, {
+			"firstName": "John",
+			"lastName": "Smith"
+		}, {
+			"firstName": "Jane",
+			"lastName": "Jones"
+		}]
+	}
+}
